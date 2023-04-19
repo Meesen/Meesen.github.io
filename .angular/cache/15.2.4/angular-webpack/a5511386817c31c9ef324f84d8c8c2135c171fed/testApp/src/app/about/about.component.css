@@ -1,0 +1,31 @@
+p{
+    padding-top: 16px;
+    margin:  8px;
+    font-size: 20px;
+}
+.main{
+    width: 65em;
+    background: #101820FF;
+    border-radius: 32px;
+    translate: 10%;
+    margin-top: 64px;
+    padding: 32px;
+    padding-right: 16px;
+    color: #f2aa4c;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+.rowCarosel{
+    padding-right:32px;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    background-color: #101820FF;
+    color: #f2aa4c;
+    font-size: 32px;
+    border-radius: 8px;
+    border-color: #f2aa4c;
+    padding: 8px;
+    margin-right: 16px;
+}

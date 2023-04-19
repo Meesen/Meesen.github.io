@@ -1,0 +1,16 @@
+<h1>Seminaries</h1>
+<div class="wrap">
+    <app-EventCard *ngFor="let project of seminaries" [givenProject]="this.project"></app-EventCard>
+</div>
+<h1>Innovatie</h1>
+<div class="wrap">
+    <app-innovatie *ngFor="let project of innovatie" [givenProject]="this.project"></app-innovatie>
+</div>
+<h1>Persoonlijke Ontwikkeling</h1>
+<div class="wrap">
+    <app-EventCard *ngFor="let project of persoonlijkeOntwikkeling" [givenProject]="this.project"></app-EventCard>
+</div>
+<h1>Extra Activiteiten</h1>
+<div class="wrap">
+    <app-extra *ngFor="let project of extraActiviteiten" [givenProject]="this.project"></app-extra>
+</div>

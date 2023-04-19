@@ -1,0 +1,12 @@
+.main{
+    width: 65em;
+    background: #101820FF;
+    border-radius: 32px;
+    translate: 10%;
+    margin-top: 64px;
+    padding: 32px;
+    padding-right: 16px;
+    color: #f2aa4c;
+    font-size: 18px;
+    margin-bottom: 32px;
+}

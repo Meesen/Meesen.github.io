@@ -1,0 +1,36 @@
+<body class="page"> 
+    <div class="page-header">
+      <div class="navElement">
+      <div class="sideCube"></div>
+      <div class="topCube"></div>
+        <div class="bannerLine" [routerLink]="['/contacts']" (mouseenter) ="mouseEnter('redirect') "  (mouseleave) ="mouseLeave('redirect')">
+          <img src="..\assets\images\XFactor.png" class="sectionHead item">
+        </div>
+      </div>
+      <div class="navElement">
+        <div class="sideCube"></div>
+        <div class="topCube"></div>
+        <div class="bannerLine" [routerLink]="['/about']" (mouseenter) ="mouseEnter('redirect') "  (mouseleave) ="mouseLeave('redirect')">
+          <img src="..\assets\images\project.png" class="sectionHead item">
+        </div>
+        </div>
+        <div class="navElement">
+          <div class="sideCube"></div>
+          <div class="topCube"></div>
+        <div class="bannerLine" [routerLink]="['/projects']" (mouseenter) ="mouseEnter('redirect') "  (mouseleave) ="mouseLeave('redirect')">
+          <img src="..\assets\images\seminare.png" class="sectionHead">
+        </div>
+        </div>
+        <div class="navElement">
+          <div class="sideCube"></div>
+          <div class="topCube"></div>
+        <div class="bannerLine" [routerLink]="['/']" (mouseenter) ="mouseEnter('redirect') "  (mouseleave) ="mouseLeave('redirect')">
+          <img src="..\assets\images\profile icon.png" class="sectionHead">
+        </div>
+        </div>
+      </div>
+      <div class="page-body">
+        <router-outlet #outlet="outlet" ></router-outlet>
+    </div>
+  
+  </body>

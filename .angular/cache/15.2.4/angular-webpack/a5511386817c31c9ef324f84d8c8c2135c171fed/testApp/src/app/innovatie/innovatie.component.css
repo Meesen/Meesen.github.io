@@ -1,0 +1,48 @@
+.card{
+    background-color: #101820;
+    border-radius: 16px;
+
+    width: 80em;
+    min-height: 20em;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    color: #f2aa4c;
+    align-items: center;
+    gap: 8px;
+    margin-right: 12em;
+}
+.icon{
+    width: 20em;
+    height: 20em;
+    position: absolute;
+    transform: translate(350%);
+    border-radius: 100%;
+    border-color: #f2aa4c;
+    border-width: 3px;
+    border-style: solid;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+.row > * {
+    margin: 0px;
+}
+h2{
+    align-self: flex-start;
+    font-size: 2.3em;
+    margin: 0;
+    padding: 16px;
+}
+.iconTag {
+ height: 1.5em;
+ padding-left: 16px;
+}
+p{
+    font-size: 1.5em;
+    padding: 16px;
+    padding-top: 0;
+}

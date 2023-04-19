@@ -1,0 +1,44 @@
+.main{
+    padding: 32px;
+    padding-right: 16px;
+    color: #f2aa4c;
+}
+h1{
+    margin:  8px;
+    font-size: 48px;
+}
+h2{
+    margin:  8px;
+}
+p{
+    padding-top: 16px;
+    margin:  8px;
+    font-size: 20px;
+}
+.details{
+    width: 55em;
+    background: #101820FF;
+    border-radius: 32px;
+    translate: 25%;
+    margin-top: 64px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    height: fit-content;
+    width: 60em;
+    background: #101820FF;
+    border-radius: 32px 220px 220px 32px;
+    translate: 25%;
+
+}
+.profile{
+    width: 25em;
+    border-radius: 50%;
+    background-color: rgb(38, 45, 53);
+    translate: 0px 2px;
+
+}
